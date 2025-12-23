@@ -30,12 +30,3 @@ Please refer to the data preparation section of OmniESI. Ref:https://github.com/
 ```shell
 python test_ood.py --model configs/model/MESI.yaml --data configs/data/[Data].yaml --weight results/[Data] --task regression
 ```
-# Citation
-```
-@article{nie2025omniesi,
-  title={OmniESI: A unified framework for enzyme-substrate interaction prediction with progressive conditional deep learning},
-  author={Nie, Zhiwei and Zhang, Hongyu and Jiang, Hao and Liu, Yutian and Huang, Xiansong and Xu, Fan and Fu, Jie and Ren, Zhixiang and Tian, Yonghong and Zhang, Wen-Bin and others},
-  journal={arXiv preprint arXiv:2506.17963},
-  year={2025}
-}
-```
